@@ -18,10 +18,12 @@
 </p>
 
 <p align="center">
-  <a href="https://omnipersist.github.io/"><img src="https://img.shields.io/badge/Project-Website-2563EB?style=for-the-badge" alt="Project website"></a>
+  <a href="https://omnipersist.github.io/"><img src="https://img.shields.io/badge/Project-2563EB?style=flat-square" alt="Project website"></a>
   &nbsp;
   <!-- arXiv URL: -->
-  <img src="https://img.shields.io/badge/arXiv-b31b1b?style=for-the-badge" alt="arXiv (link to be added)">
+  <img src="https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&amp;logo=arxiv&amp;logoColor=white" alt="arXiv (link to be added)">
+  &nbsp;
+  <a href="https://visitor-badge.laobi.icu/"><img src="https://visitor-badge.laobi.icu/badge?page_id=cszhilu1998.OmniPersist&amp;left_color=%23555&amp;right_color=%232563EB&amp;radius=0&amp;height=20" alt="Visitor count"></a>
 </p>
 
 ## Overview
@@ -70,8 +72,15 @@ The following results are reported in the manuscript at panoramic sampling inter
 
 Re-entry identity measures foreground DINOv2 feature similarity when subjects return to view. Subject trajectory error measures normalized subject trajectory deviation from ground truth.
 
----
+## Citation
 
-<p align="center">
-  <a href="https://visitor-badge.laobi.icu/"><img src="https://visitor-badge.laobi.icu/badge?page_id=cszhilu1998.OmniPersist&amp;left_color=%23595959&amp;right_color=%232563EB" alt="Visitor count"></a>
-</p>
+If you find this work useful, please cite:
+
+```bibtex
+@misc{zhang2026omnipersist,
+  title  = {{OmniPersist}: Persistent Dynamic World Modeling via Coupled Panoramic Evolution},
+  author = {Zhang, Zhilu and Liu, Xiaoyu and Liu, Wenxi and He, Shengfeng},
+  year   = {2026},
+  url    = {https://omnipersist.github.io/}
+}
+```

@@ -18,12 +18,12 @@
 </p>
 
 <p align="center">
-  <a href="https://omnipersist.github.io/"><img height="56" src="https://img.shields.io/badge/Project-0F766E?style=flat-square" alt="Project website"></a>
+  <a href="https://omnipersist.github.io/"><img height="80" src="https://img.shields.io/badge/Project-green?style=flat-square" alt="Project website"></a>
   &emsp;
   <!-- arXiv URL: -->
-  <img height="56" src="https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&amp;logo=arxiv&amp;logoColor=white" alt="arXiv (link to be added)">
+  <img height="80" src="https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&amp;logo=arxiv&amp;logoColor=white" alt="arXiv (link to be added)">
   &emsp;
-  <a href="https://visitor-badge.laobi.icu/"><img height="56" src="https://visitor-badge.laobi.icu/badge?page_id=cszhilu1998.OmniPersist&amp;left_color=%23555&amp;right_color=%232563EB&amp;radius=0&amp;height=20" alt="Visitor count"></a>
+  <a href="https://visitor-badge.laobi.icu/"><img height="80" src="https://visitor-badge.laobi.icu/badge?page_id=cszhilu1998.OmniPersist&amp;left_color=%23555&amp;right_color=%232563EB&amp;radius=0&amp;height=20" alt="Visitor count"></a>
 </p>
 
 ## Overview

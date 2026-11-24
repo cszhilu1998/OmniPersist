@@ -2,6 +2,16 @@
 
 **Persistent Dynamic World Modeling via Coupled Panoramic Evolution**
 
+[Zhilu Zhang](https://scholar.google.com/citations?user=8pIq2N0AAAAJ&hl)<sup>1</sup>,
+[Xiaoyu Liu](https://scholar.google.com/citations?user=h4iDziYAAAAJ&hl)<sup>2</sup>,
+[Wenxi Liu](https://scholar.google.com/citations?user=Y310sT0AAAAJ&hl)<sup>3</sup>,
+[Shengfeng He](https://scholar.google.com/citations?user=rBWnK8wAAAAJ&hl)<sup>1,*</sup>
+
+<sup>1</sup> Singapore Management University · <sup>2</sup> Harbin Institute of Technology · <sup>3</sup> Fuzhou University<br>
+<sup>*</sup> Corresponding author
+
+**[Project](https://omnipersist.github.io/)** · **arXiv** <!-- arXiv URL: -->
+
 OmniPersist is a single-stage video diffusion framework for camera-controlled world modeling. It jointly generates perspective video and a temporally sparse 360° panoramic stream so that moving subjects can continue evolving outside the camera's field of view and remain consistent when the camera returns.
 
 ## Overview
@@ -15,10 +25,12 @@ Given a text prompt, an observed perspective image or video prefix, and a camera
 - **Coupled panoramic evolution:** Dense perspective video and sparse panoramic states share one video diffusion backbone, providing context for content outside the current viewport.
 - **Geometric Anchoring (GeoAnch):** Explicit geometric correspondences support feature exchange between perspective and panoramic views at synchronized timestamps.
 - **Temporal Compensation (TemComp):** Local feature aggregation across neighboring timestamps bridges the different frame rates of the two streams.
-- **Flexible camera conditioning:** The framework supports latent-level conditioning with CameraCtrl and attention-level conditioning with UCPE.
-- **Adjustable panoramic density:** A sampling interval controls the trade-off between panoramic prediction cost and generation quality.
 
-## Method
+## Method overview
+
+![OmniPersist method overview: dense perspective and sparse panoramic streams share a diffusion transformer adapted with LoRA, connected by GeoAnch and TemComp.](assets/method.png)
+
+*Dense perspective observations and sparse panoramic states evolve together. The diagram illustrates a panoramic sampling interval of s = 4.*
 
 OmniPersist uses **Wan2.2-TI2V-5B** as its backbone. Perspective and panoramic tokens are jointly processed by a shared diffusion transformer adapted with rank-32 LoRA. GeoAnch and TemComp connect the streams after each transformer block.
 
@@ -69,11 +81,3 @@ The following results are reported in the manuscript at panoramic sampling inter
 Re-entry identity measures foreground DINOv2 feature similarity when subjects return to view. Background PSNR is measured on intersected static-background masks at revisit timestamps. Arrows indicate whether higher or lower values are better; bold values indicate improvements over the corresponding baseline.
 
 Both OmniPersist variants improve all 14 evaluated metrics over their respective perspective-only baselines in both tasks at s = 4.
-
-## Repository Status
-
-This repository currently contains the project README. Training and inference code, model checkpoints, dataset preparation tools, and evaluation scripts are not included in this initial commit.
-
-## Limitations
-
-Training currently relies on panoramic video data. Real-time streaming and long-horizon video generation remain future directions.

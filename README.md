@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <a href="https://omnipersist.github.io/"><img height="40" src="https://img.shields.io/badge/Project-2563EB?style=flat-square" alt="Project website"></a>
+  <a href="https://omnipersist.github.io/"><img height="40" src="https://img.shields.io/badge/Project-0F766E?style=flat-square" alt="Project website"></a>
   &nbsp;
   <!-- arXiv URL: -->
   <img height="40" src="https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&amp;logo=arxiv&amp;logoColor=white" alt="arXiv (link to be added)">

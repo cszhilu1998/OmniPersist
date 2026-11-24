@@ -1,6 +1,6 @@
-# OmniPersist
+![OmniPersist](assets/OmniPersist-title.svg)
 
-**Persistent Dynamic World Modeling via Coupled Panoramic Evolution**
+**OmniPersist: Persistent Dynamic World Modeling via Coupled Panoramic Evolution**
 
 [Zhilu Zhang](https://scholar.google.com/citations?user=8pIq2N0AAAAJ&hl)<sup>1</sup>,
 [Xiaoyu Liu](https://scholar.google.com/citations?user=h4iDziYAAAAJ&hl)<sup>2</sup>,

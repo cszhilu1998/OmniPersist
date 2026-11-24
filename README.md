@@ -18,10 +18,10 @@
 </p>
 
 <p align="center">
-  <a href="https://omnipersist.github.io/"><img width="61" height="25" src="https://img.shields.io/badge/Project-green" alt="Project website"></a>
-  &emsp;
   <!-- arXiv URL: -->
-  <img width="49" height="25" src="https://img.shields.io/badge/arXiv-b31b1b" alt="arXiv (link to be added)">
+  <img width="49" height="25" src="https://img.shields.io/badge/arXiv-b31b1b" alt="arXiv">
+  &emsp;
+  <a href="https://omnipersist.github.io/"><img width="99" height="25" src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
   &emsp;
   <a href="https://visitor-badge.laobi.icu/"><img height="25" src="https://visitor-badge.laobi.icu/badge?page_id=cszhilu1998.OmniPersist&amp;left_color=%23555&amp;right_color=%232563EB&amp;radius=3&amp;height=25" alt="Visitor count"></a>
 </p>

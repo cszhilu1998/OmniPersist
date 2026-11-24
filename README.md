@@ -14,7 +14,7 @@
 <p align="center">
   <sup>1</sup> Singapore Management University<br>
   <sup>2</sup> Harbin Institute of Technology &emsp; <sup>3</sup> Fuzhou University<br>
-  <sub><sup>*</sup> Corresponding author</sub>
+  <sup>*</sup> Corresponding author
 </p>
 
 <p align="center">

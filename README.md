@@ -1,16 +1,28 @@
-![OmniPersist](assets/OmniPersist-title.svg)
+<p align="center">
+  <img src="assets/OmniPersist-title.svg" alt="OmniPersist" width="480">
+</p>
 
-**OmniPersist: Persistent Dynamic World Modeling via Coupled Panoramic Evolution**
+<h1 align="center">OmniPersist: Persistent Dynamic World Modeling<br>via Coupled Panoramic Evolution</h1>
 
-[Zhilu Zhang](https://scholar.google.com/citations?user=8pIq2N0AAAAJ&hl)<sup>1</sup>,
-[Xiaoyu Liu](https://scholar.google.com/citations?user=h4iDziYAAAAJ&hl)<sup>2</sup>,
-[Wenxi Liu](https://scholar.google.com/citations?user=Y310sT0AAAAJ&hl)<sup>3</sup>,
-[Shengfeng He](https://scholar.google.com/citations?user=rBWnK8wAAAAJ&hl)<sup>1,*</sup>
+<p align="center">
+  <a href="https://scholar.google.com/citations?user=8pIq2N0AAAAJ&amp;hl">Zhilu Zhang</a><sup>1</sup>&emsp;
+  <a href="https://scholar.google.com/citations?user=h4iDziYAAAAJ&amp;hl">Xiaoyu Liu</a><sup>2</sup>&emsp;
+  <a href="https://scholar.google.com/citations?user=Y310sT0AAAAJ&amp;hl">Wenxi Liu</a><sup>3</sup>&emsp;
+  <a href="https://scholar.google.com/citations?user=rBWnK8wAAAAJ&amp;hl">Shengfeng He</a><sup>1,*</sup>
+</p>
 
-<sup>1</sup> Singapore Management University · <sup>2</sup> Harbin Institute of Technology · <sup>3</sup> Fuzhou University<br>
-<sup>*</sup> Corresponding author
+<p align="center">
+  <sup>1</sup> Singapore Management University<br>
+  <sup>2</sup> Harbin Institute of Technology &emsp; <sup>3</sup> Fuzhou University<br>
+  <sub><sup>*</sup> Corresponding author</sub>
+</p>
 
-**[Project](https://omnipersist.github.io/)** · **arXiv** <!-- arXiv URL: -->
+<p align="center">
+  <a href="https://omnipersist.github.io/"><img src="https://img.shields.io/badge/Project-Website-2563EB?style=for-the-badge" alt="Project website"></a>
+  &nbsp;
+  <!-- arXiv URL: -->
+  <img src="https://img.shields.io/badge/arXiv-b31b1b?style=for-the-badge" alt="arXiv (link to be added)">
+</p>
 
 ## Overview
 
@@ -40,8 +52,8 @@ The following results are reported in the manuscript at panoramic sampling inter
 
 ### Image-to-video
 
-| Method | FVD ↓ | Translation error ↓ | Rotation error ↓ | Re-entry identity ↑ | Subject trajectory error ↓ |
-| --- | ---: | ---: | ---: | ---: | ---: |
+| Method | FVD&nbsp;↓ | Translation error ↓ | Rotation error ↓ | Re-entry identity ↑ | Subject trajectory error ↓ |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | CameraCtrl | 288.5 | 0.531 | 13.086 | 0.2325 | 0.4753 |
 | CameraCtrl + OmniPersist | **262.3** | **0.399** | **5.556** | **0.3355** | **0.3830** |
 | UCPE | 333.7 | 0.431 | 8.127 | 0.2097 | 0.4897 |
@@ -49,11 +61,17 @@ The following results are reported in the manuscript at panoramic sampling inter
 
 ### Video continuation
 
-| Method | FVD ↓ | Translation error ↓ | Rotation error ↓ | Re-entry identity ↑ | Subject trajectory error ↓ |
-| --- | ---: | ---: | ---: | ---: | ---: |
+| Method | FVD&nbsp;↓ | Translation error ↓ | Rotation error ↓ | Re-entry identity ↑ | Subject trajectory error ↓ |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | CameraCtrl | 227.5 | 0.451 | 11.704 | 0.2494 | 0.5161 |
 | CameraCtrl + OmniPersist | **194.9** | **0.401** | **4.345** | **0.3771** | **0.4289** |
 | UCPE | 264.6 | 0.443 | 6.711 | 0.2778 | 0.5255 |
 | UCPE + OmniPersist | **210.3** | **0.342** | **4.169** | **0.3849** | **0.4245** |
 
 Re-entry identity measures foreground DINOv2 feature similarity when subjects return to view. Subject trajectory error measures normalized subject trajectory deviation from ground truth.
+
+---
+
+<p align="center">
+  <a href="https://visitor-badge.laobi.icu/"><img src="https://visitor-badge.laobi.icu/badge?page_id=cszhilu1998.OmniPersist&amp;left_color=%23595959&amp;right_color=%232563EB" alt="Visitor count"></a>
+</p>

@@ -18,11 +18,11 @@
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2611.32473"><img width="145" height="25" src="https://img.shields.io/badge/arXiv-2611.32473-b31b1b" alt="arXiv: 2611.32473"></a>
-  &emsp;
-  <a href="https://omnipersist.github.io/"><img width="99" height="25" src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
-  &emsp;
-  <a href="https://visitor-badge.laobi.icu/"><img height="25" src="https://visitor-badge.laobi.icu/badge?page_id=cszhilu1998.OmniPersist&amp;left_color=%23555&amp;right_color=%232563EB&amp;radius=3&amp;height=25" alt="Visitor count"></a>
+  <a href="https://arxiv.org/abs/2611.32473"><img width="116" height="20" src="https://img.shields.io/badge/arXiv-2611.32473-b31b1b" alt="arXiv: 2611.32473"></a>
+  &nbsp;
+  <a href="https://omnipersist.github.io/"><img width="79" height="20" src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
+  &nbsp;
+  <a href="https://visitor-badge.laobi.icu/"><img height="20" src="https://visitor-badge.laobi.icu/badge?page_id=cszhilu1998.OmniPersist&amp;left_color=%23555&amp;right_color=%232563EB&amp;radius=3&amp;height=20" alt="Visitor count"></a>
 </p>
 
 ## Overview

@@ -18,8 +18,7 @@
 </p>
 
 <p align="center">
-  <!-- arXiv URL: -->
-  <img width="49" height="25" src="https://img.shields.io/badge/arXiv-b31b1b" alt="arXiv">
+  <a href="https://arxiv.org/abs/2611.32473"><img width="145" height="25" src="https://img.shields.io/badge/arXiv-2611.32473-b31b1b" alt="arXiv: 2611.32473"></a>
   &emsp;
   <a href="https://omnipersist.github.io/"><img width="99" height="25" src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
   &emsp;
@@ -81,6 +80,8 @@ If you find this work useful, please cite:
   title  = {{OmniPersist}: Persistent Dynamic World Modeling via Coupled Panoramic Evolution},
   author = {Zhang, Zhilu and Liu, Xiaoyu and Liu, Wenxi and He, Shengfeng},
   year   = {2026},
-  url    = {https://omnipersist.github.io/}
+  eprint = {2611.32473},
+  archivePrefix = {arXiv},
+  url    = {https://arxiv.org/abs/2611.32473}
 }
 ```
